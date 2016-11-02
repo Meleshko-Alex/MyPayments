@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="@string/whom"
+            android:id="@+id/textView9"
+            android:layout_weight="1"
+            android:gravity="center_vertical|right"
+            android:layout_marginRight="30dp"
+            android:textStyle="bold"
+            android:textSize="20dp"/>
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_whom"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="@string/adress"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="@string/theme"
+            android:id="@+id/textView91"
+            android:layout_weight="1"
+            android:gravity="center_vertical|right"
+            android:layout_marginRight="30dp"
+            android:textStyle="bold"
+            android:textSize="20dp"/>
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_theme_name"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="@string/theme_name"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="@string/account"
+            android:id="@+id/textView92"
+            android:layout_weight="1"
+            android:gravity="center_vertical|right"
+            android:layout_marginRight="30dp"
+            android:textStyle="bold"
+            android:textSize="20dp"/>
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_account_number"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="@string/account_number"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="@string/full_name"
+            android:id="@+id/textView93"
+            android:layout_weight="1"
+            android:gravity="center_vertical|right"
+            android:layout_marginRight="30dp"
+            android:textStyle="bold"
+            android:textSize="20dp"/>
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_client_full_name"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="@string/client_full_name"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="@string/client_adress"
+            android:id="@+id/textView94"
+            android:layout_weight="1"
+            android:gravity="center_vertical|right"
+            android:layout_marginRight="30dp"
+            android:textStyle="bold"
+            android:textSize="20dp"/>
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_client_full_adress"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="@string/client_full_adress"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="@string/testimony"
+            android:layout_weight="1"
+            android:gravity="center_vertical|right"
+            android:layout_marginRight="30dp"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:id="@+id/textView95"/>
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_client_testimony"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="@string/client_testimony"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="@string/date"
+            android:id="@+id/textView96"
+            android:layout_weight="1"
+            android:gravity="center_vertical|right"
+            android:layout_marginRight="30dp"
+            android:textStyle="bold"
+            android:textSize="20dp"/>
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_date_test"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="@string/date_test"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="@string/phone"
+            android:id="@+id/textView97"
+            android:layout_weight="1"
+            android:gravity="center_vertical|right"
+            android:layout_marginRight="30dp"
+            android:textStyle="bold"
+            android:textSize="20dp"/>
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_client_phone"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="@string/client_phone"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:baselineAligned="false"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/send"
+            android:id="@+id/btn_send"
+            android:layout_marginTop="20dp"/>
+    </LinearLayout>
+
+</LinearLayout>

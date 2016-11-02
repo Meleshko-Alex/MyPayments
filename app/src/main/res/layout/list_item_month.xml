@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+        <CheckBox android:id="@+id/chb_list_item_month"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_alignParentRight="true"
+                  android:padding="4dp"
+                  android:layout_marginTop="10dp"/>
+
+        <TextView android:id="@+id/tv_list_item_ask"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_toLeftOf="@id/chb_list_item_month"
+                  android:padding="4dp"
+                  tools:text="Month closed?"
+                  android:textSize="17sp"
+                  android:layout_marginTop="10dp"/>
+
+        <TextView android:id="@+id/tv_list_item_title"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_toLeftOf="@id/tv_list_item_ask"
+                  android:textStyle="bold"
+                  android:padding="4dp"
+                  tools:text="Month Title"
+                  android:textSize="17sp"
+                  android:layout_marginTop="10dp"
+                  android:textColor="#000000"/>
+
+
+        <TextView android:id="@+id/tv_list_item_sum_money"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_toLeftOf="@id/chb_list_item_month"
+                  android:layout_below="@+id/tv_list_item_title"
+                  android:padding="4dp"
+                  tools:text="Month Summa"
+                  android:textSize="17sp"
+                  android:layout_marginTop="6dp"
+                  style="?android:listSeparatorTextViewStyle"
+                  android:textColor="#000000"
+                  android:textStyle="normal"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.25">
+
+        <EditText
+            android:id="@+id/et_month_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/month_title_hint"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/month_payments_label"
+            style="?android:listSeparatorTextViewStyle"/>
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/power"
+                    android:id="@+id/textView2"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:layout_weight="0.1"/>
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:inputType="number"
+                    android:ems="10"
+                    android:id="@+id/et_last_month_1"
+                    android:layout_weight="1"
+                    android:textSize="13sp"
+                    android:hint="@string/last_month"
+                    android:gravity="center_vertical|center_horizontal"
+                    />
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:inputType="number"
+                    android:ems="10"
+                    android:id="@+id/et_this_month_1"
+                    android:layout_weight="1"
+                    android:hint="@string/this_month"
+                    android:textSize="13sp"
+                    android:gravity="center_vertical|center_horizontal"/>
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:inputType="number"
+                    android:ems="10"
+                    android:id="@+id/et_tariff_power"
+                    android:layout_weight="1"
+                    android:hint="@string/tariff"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:textSize="13sp"
+                    />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/et_total_1"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:layout_weight="0.3"
+                    android:hint="@string/total"
+                    android:textSize="13sp"
+                    android:inputType="number"/>
+            </LinearLayout>
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/gas"
+                android:id="@+id/tv3"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:layout_weight="0.1"/>
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:inputType="number"
+                android:ems="10"
+                android:id="@+id/et_last_month_2"
+                android:layout_weight="1"
+                android:textSize="13sp"
+                android:hint="@string/last_month"
+                android:gravity="center_vertical|center_horizontal"
+                />
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:inputType="number"
+                android:ems="10"
+                android:id="@+id/et_this_month_2"
+                android:layout_weight="1"
+                android:hint="@string/this_month"
+                android:textSize="13sp"
+                android:gravity="center_vertical|center_horizontal"/>
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:inputType="number"
+                android:ems="10"
+                android:id="@+id/et_tariff_gas"
+                android:layout_weight="1"
+                android:hint="@string/tariff"
+                android:gravity="center_vertical|center_horizontal"
+                android:textSize="13sp"
+                />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/et_total_2"
+                android:gravity="center_vertical|center_horizontal"
+                android:layout_weight="0.3"
+                android:hint="@string/total"
+                android:textSize="13sp"
+                android:inputType="number"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cool_water"
+                android:id="@+id/tv4"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:layout_weight="0.1"/>
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:inputType="number"
+                android:ems="10"
+                android:id="@+id/et_last_month_3"
+                android:layout_weight="1"
+                android:textSize="13sp"
+                android:hint="@string/last_month"
+                android:gravity="center_vertical|center_horizontal"
+                />
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:inputType="number"
+                android:ems="10"
+                android:id="@+id/et_this_month_3"
+                android:layout_weight="1"
+                android:hint="@string/this_month"
+                android:textSize="13sp"
+                android:gravity="center_vertical|center_horizontal"/>
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:inputType="number"
+                android:ems="10"
+                android:id="@+id/et_tariff_cool_water"
+                android:layout_weight="1"
+                android:hint="@string/tariff"
+                android:gravity="center_vertical|center_horizontal"
+                android:textSize="13sp"
+                />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/et_total_3"
+                android:gravity="center_vertical|center_horizontal"
+                android:layout_weight="0.3"
+                android:hint="@string/total"
+                android:textSize="13sp"
+                android:inputType="number"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hot_water"
+                android:id="@+id/tv5"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:layout_weight="0.1"/>
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:inputType="number"
+                android:ems="10"
+                android:id="@+id/et_last_month_4"
+                android:layout_weight="1"
+                android:textSize="13sp"
+                android:hint="@string/last_month"
+                android:gravity="center_vertical|center_horizontal"
+                />
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:inputType="number"
+                android:ems="10"
+                android:id="@+id/et_this_month_4"
+                android:layout_weight="1"
+                android:hint="@string/this_month"
+                android:textSize="13sp"
+                android:gravity="center_vertical|center_horizontal"/>
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:inputType="number"
+                android:ems="10"
+                android:id="@+id/et_tariff_hot_water"
+                android:layout_weight="1"
+                android:hint="@string/tariff"
+                android:gravity="center_vertical|center_horizontal"
+                android:textSize="13sp"
+                />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/et_total_4"
+                android:gravity="center_vertical|center_horizontal"
+                android:layout_weight="0.3"
+                android:hint="@string/total"
+                android:textSize="13sp"
+                android:inputType="number"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="5dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/house_pay"
+                        android:id="@+id/textView3"
+                        android:textStyle="bold"
+                        android:textSize="15sp"/>
+
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:inputType="number"
+                        android:ems="10"
+                        android:id="@+id/et_house_pay"
+                        android:textSize="13dp"
+                        android:hint="@string/total"
+                        android:gravity="center_vertical|center_horizontal"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="5dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/garbage"
+                        android:id="@+id/textView4"
+                        android:textStyle="bold"
+                        android:textSize="15sp"/>
+
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:inputType="number"
+                        android:ems="10"
+                        android:id="@+id/et_garbage"
+                        android:textSize="13dp"
+                        android:hint="@string/total"
+                        android:gravity="center_vertical|center_horizontal"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                >
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="5dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/heating"
+                        android:id="@+id/textView5"
+                        android:textStyle="bold"
+                        android:textSize="15sp"/>
+
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:inputType="number"
+                        android:id="@+id/et_heating"
+                        android:textSize="13dp"
+                        android:hint="@string/total"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:ems="20"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="5dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/extra_pay"
+                        android:id="@+id/textView6"
+                        android:textStyle="bold"
+                        android:textSize="15sp"/>
+
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:id="@+id/et_extra_pay"
+                        android:textSize="13dp"
+                        android:hint="@string/total"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:inputType="number"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!--<Button android:id="@+id/btn_month_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"/>-->
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.8">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="4dp"
+            android:layout_marginLeft="16dp">
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:id="@+id/iv_check_foto"
+                android:scaleType="centerInside"
+                android:background="@android:color/darker_gray"
+                android:cropToPadding="true"
+                android:layout_gravity="center_horizontal" />
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/im_btn_camera"
+                android:src="@android:drawable/ic_menu_camera"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/summa"
+                    style="?android:listSeparatorTextViewStyle"
+                    android:id="@+id/textView"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="16dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:id="@+id/et_summa"
+                    android:layout_marginLeft="16dp"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:gravity="center_vertical|center_horizontal"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/calculate"
+                    android:id="@+id/btn_calculate"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"/>
+
+                <CheckBox android:id="@+id/chb_month_closed"
+                          android:layout_width="match_parent"
+                          android:layout_height="match_parent"
+                          android:layout_marginLeft="16dp"
+                          android:layout_marginRight="16dp"
+                          android:text="@string/month_closed_label"
+                          android:checked="false"
+                          android:textSize="20sp"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
